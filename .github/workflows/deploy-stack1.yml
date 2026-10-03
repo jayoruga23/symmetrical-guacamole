@@ -3,7 +3,7 @@ name: "Deploy Stack 1 - Storage (S3)"
 
 # ── TRIGGERS ─────────────────────────────────────────────────────────────────
 on:
-  # Trigger automatically when infra/01-storage/ files change on main.
+  # Trigger automatically when infra/01-storage/ files change on main.jay
   push:
     branches:
       - "**"
